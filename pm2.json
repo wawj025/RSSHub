@@ -1,0 +1,13 @@
+{
+    "apps": [
+        {
+            "name": "RssHub",
+            "script": "lib/index.js",
+            "instances": 1,
+            "autorestart": true,
+            "env": {
+                "PORT": 80
+            }
+        }
+    ]
+}
